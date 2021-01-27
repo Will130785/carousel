@@ -1,10 +1,11 @@
-img {
+.carousel__photo img {
     width: 100%;
 }
 
 .carousel-wrapper {
     overflow: hidden;
     width: 100%;
+    height: 100%;
     box-sizing: border-box;
 }
 
@@ -17,7 +18,7 @@ img {
     position: absolute;
     top: 0;
     width: 100%;
-    height: 90vh;
+    height: 100%;
     margin: auto;
     /* padding: 1rem 4rem; */
     z-index: 100;
